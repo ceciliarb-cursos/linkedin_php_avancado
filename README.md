@@ -81,3 +81,11 @@ foreach(fizzbuzz(25) as $key => $value) {
 	echo "{$key} => {$value} \n";
 }
 ```
+
+## Password hash
+
+http://php.net/manual/en/ref.password.php
+- password_get_info — Returns information about the given hash
+- password_hash — Creates a password hash
+- password_needs_rehash — Checks if the given hash matches the given options
+- password_verify — Verifies that a password matches a hash
