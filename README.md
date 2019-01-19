@@ -7,26 +7,26 @@ https://www.tutorialdocs.com/article/16-php-magic-methods.html
 ## Iterators
 http://php.net/manual/en/spl.iterators.php
 - AppendIterator
-- ArrayIterator
+- ArrayIterator --
 - CachingIterator
-- CallbackFilterIterator
-- DirectoryIterator
+- CallbackFilterIterator --
+- DirectoryIterator --
 - EmptyIterator
-- FilesystemIterator
-- FilterIterator
+- FilesystemIterator --
+- FilterIterator --
 - GlobIterator
-- InfiniteIterator
-- IteratorIterator
-- LimitIterator
+- InfiniteIterator --
+- IteratorIterator --
+- LimitIterator --
 - MultipleIterator
 - NoRewindIterator
 - ParentIterator
 - RecursiveArrayIterator
 - RecursiveCachingIterator
 - RecursiveCallbackFilterIterator
-- RecursiveDirectoryIterator
+- RecursiveDirectoryIterator --
 - RecursiveFilterIterator
-- RecursiveIteratorIterator
+- RecursiveIteratorIterator --
 - RecursiveRegexIterator
 - RecursiveTreeIterator
 - RegexIterator
