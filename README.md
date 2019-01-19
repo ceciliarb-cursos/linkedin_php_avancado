@@ -6,6 +6,30 @@ https://www.tutorialdocs.com/article/16-php-magic-methods.html
 
 ## Iterators
 http://php.net/manual/en/spl.iterators.php
+AppendIterator
+ArrayIterator
+CachingIterator
+CallbackFilterIterator
+DirectoryIterator
+EmptyIterator
+FilesystemIterator
+FilterIterator
+GlobIterator
+InfiniteIterator
+IteratorIterator
+LimitIterator
+MultipleIterator
+NoRewindIterator
+ParentIterator
+RecursiveArrayIterator
+RecursiveCachingIterator
+RecursiveCallbackFilterIterator
+RecursiveDirectoryIterator
+RecursiveFilterIterator
+RecursiveIteratorIterator
+RecursiveRegexIterator
+RecursiveTreeIterator
+RegexIterator
 
 ## The SplFileObject class
 
