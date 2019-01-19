@@ -31,9 +31,35 @@ http://php.net/manual/en/spl.iterators.php
 - RecursiveTreeIterator
 - RegexIterator
 
-## The SplFileObject class
+### The SplFileObject class
 
 (PHP 5 >= 5.1.0, PHP 7)
 
 http://php.net/manual/en/class.splfileobject.php
 > The SplFileObject class offers an object oriented interface for a file.
+
+## Generators
+
+(PHP 5 >= 5.5.0, PHP 7)
+
+http://php.net/manual/en/language.generators.overview.php
+> Generators provide an easy way to implement simple iterators without the overhead or complexity of implementing a class that implements the Iterator interface.
+
+```php
+<?php
+function fizzbuzz($limit) {
+	$i = 0;
+	while ($i <= $limit) {
+		$yield = null;
+		if ($i % 3 == 0) { $yield = 'fizz'; }
+		if ($i % 5 == 0) { $yield .= 'buzz'; }
+		yield $yield;
+		$i++;
+	}
+	return;
+}
+
+foreach(fizzbuzz(25) as $key => $value) {
+	echo "{$key} => {$value} \n";
+}
+```
