@@ -4,6 +4,24 @@ https://www.linkedin.com/learning/advanced-php
 ## magic methods
 https://www.tutorialdocs.com/article/16-php-magic-methods.html
 
+- __construct()
+- __destruct()
+- __call($funName, $arguments)
+- __callStatic($funName, $arguments)
+- __get($propertyName)
+- __set($property, $value)
+- __isset($content)
+- __unset($content)
+- __sleep()
+- __wakeup()
+- __toString()
+- __invoke()
+- __set_state($an_array)
+- __clone()
+- __autoload($className)
+- __debugInfo()
+
+
 ## Iterators
 http://php.net/manual/en/spl.iterators.php
 - AppendIterator
