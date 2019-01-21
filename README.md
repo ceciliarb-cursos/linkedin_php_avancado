@@ -147,20 +147,20 @@ Before PHP 7, Exception did not implement the Throwable interface.
       DOMException
       ErrorException
       IntlException
-      LogicException
-        BadFunctionCallException
-          BadMethodCallException
-        DomainException
-        InvalidArgumentException
-        LengthException
-        OutOfRangeException
+      LogicException --
+        BadFunctionCallException ----
+          BadMethodCallException ----
+        DomainException --
+        InvalidArgumentException ----
+        LengthException --
+        OutOfRangeException --
       PharException
       ReflectionException
-      RuntimeException
-        OutOfBoundsException
-        OverflowException
+      RuntimeException --
+        OutOfBoundsException --
+        OverflowException --
         PDOException
-        RangeException
-        UnderflowException
-        UnexpectedValueException
+        RangeException --
+        UnderflowException --
+        UnexpectedValueException --
       SodiumException 
