@@ -89,3 +89,24 @@ http://php.net/manual/en/ref.password.php
 - password_hash — Creates a password hash
 - password_needs_rehash — Checks if the given hash matches the given options
 - password_verify — Verifies that a password matches a hash
+
+## The Closure class
+
+(PHP 5 >= 5.3.0, PHP 7)
+
+Class used to represent anonymous functions.
+Usando ```__invoque```
+```php
+<?php
+class IsPositiveInt {
+	public function __invoke($value) {
+		return ((int)$value == $value && $value > 0);
+	}
+}
+$invoke = new IsPositiveInt();
+var_dump($invoke(5));
+var_dump($invoke('5'));
+var_dump($invoke(5.0));
+var_dump($invoke(-5));
+var_dump($invoke(5.1));
+```
