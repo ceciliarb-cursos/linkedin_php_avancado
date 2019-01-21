@@ -127,3 +127,40 @@ var_dump($invoke(5.0));
 var_dump($invoke(-5));
 var_dump($invoke(5.1));
 ```
+
+## Exception
+
+(PHP 5, PHP 7)
+
+Exception is the base class for all Exceptions in PHP 5, and the base class for all user exceptions in PHP 7.
+Before PHP 7, Exception did not implement the Throwable interface.
+
+    Error
+      ArithmeticError
+        DivisionByZeroError
+      AssertionError
+      ParseError
+      TypeError
+        ArgumentCountError
+    Exception
+      ClosedGeneratorException
+      DOMException
+      ErrorException
+      IntlException
+      LogicException
+        BadFunctionCallException
+          BadMethodCallException
+        DomainException
+        InvalidArgumentException
+        LengthException
+        OutOfRangeException
+      PharException
+      ReflectionException
+      RuntimeException
+        OutOfBoundsException
+        OverflowException
+        PDOException
+        RangeException
+        UnderflowException
+        UnexpectedValueException
+      SodiumException 
